@@ -16,6 +16,6 @@ jobs:
     - name: Deploy to GH Pages
       run: |
         git config --global user.name "${{ github.actor }}"
-        git remote set-url origin https://${{ b32cd1bf94f9ffdd65935f3d361803209f9ab855}}@github.com/${{ lab-27 }}.git
+        git remote set-url origin https://b32cd1bf94f9ffdd65935f3d361803209f9ab855@github.com/lab-27.git
         npm install
         npm run deploy
